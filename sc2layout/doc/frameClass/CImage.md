@@ -178,7 +178,24 @@ TBD
 
 ## TextureType
 
-TBD
+Accepted Values:
+None: unknown
+
+Normal: The image is not adjusted in any way for displaying.
+
+Border: The image is chopped up and put together again as displayed here: Border Texture explained
+
+HorizontalBorder: Another way the border is chopped up and put together again.
+
+EndCap: Another way the border is chopped up and put together again.
+
+NineSlice: Image is split into nine quadrants and put together with correct scaling. Corners wont scale only top, left,     bottom, right and center
+
+Circular: unknown
+  
+  
+Layer:
+The texture on this layer is drawn using this method.
 
 ## Tiled
 
